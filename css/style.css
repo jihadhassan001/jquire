@@ -1,0 +1,92 @@
+
+/* banner start */
+#dragg { 
+     width: 150px;
+     height: 50px;
+     padding: 0.5em;
+     background-color: blue;
+     color: #fff;
+}
+/* dropable */
+#draggable { 
+      width: 100px;
+      height: 100px;
+      padding: 0.5em; 
+      float: left; 
+     
+}
+#draggable img{
+
+     width: 100px;
+     height: 100px;
+     margin: 0;
+     padding: 0;
+}
+#droppable { 
+     width: 150px; 
+     height: 150px; 
+     padding: 0.5em; 
+     float: left; 
+     margin: 10px; 
+}
+/* example2 */
+#draggabl, #draggable2, #draggable2 img { 
+     width: 100px; 
+     height: 100px; 
+     padding: 0.5em; 
+     float: left; 
+     margin: 10px 10px 10px 0; 
+}
+#droppabl { 
+     width: 150px; 
+     height: 150px; 
+     padding: 0.5em; 
+     float: left; 
+     margin: 10px; 
+}
+/* example3 */
+#gallery { float: left; width: 65%; min-height: 12em; }
+  .gallery.custom-state-active { background: #eee; }
+  .gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+  .gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+
+  .gallery li img { width: 100%; cursor: move; }
+ 
+  #trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+  #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash h4 .ui-icon { float: left; }
+  #trash .gallery h5 { display: none; }
+
+  /* manue */
+  .ui-menu { width: 150px; }
+  /* looding */
+  .ui-progressbar {
+     position: relative;
+   }
+   .progress-label {
+     position: absolute;
+     left: 50%;
+     top: 4px;
+     font-weight: bold;
+     text-shadow: 1px 1px 0 #fff;
+   }
+
+
+/* selector */
+   fieldset {
+     border: 0;
+   }
+   label {
+     display: block;
+     margin: 30px 0 0 0;
+   }
+   .overflow {
+     height: 200px;
+   }
+
+   /* cool */
+   .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+   

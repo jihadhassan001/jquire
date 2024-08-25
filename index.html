@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font link -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- jq ui -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.0/themes/base/jquery-ui.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- media css -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+  <!-- looding -->
+  <section class="looding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="progressbar"><div class="progress-label">Loading...</div></div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+  <br>
+   <section class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12"> 
+                <div id="dragg" class="ui-widget-content">
+                    <p>Drag are u ready</p>
+                </div> 
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6">
+                <div id="accordion">
+                    <h3>Section 1</h3>
+                    <div>
+                      <p>
+                      Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                      ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                      amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                      odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                      </p>
+                    </div>
+                    <h3>Section 2</h3>
+                    <div>
+                      <p>
+                      Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                      purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                      velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                      suscipit faucibus urna.
+                      </p>
+                    </div>
+                    <h3>Section 3</h3>
+                    <div>
+                      <p>
+                      Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                      Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                      ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                      lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                      </p>
+                      <ul>
+                        <li>List item one</li>
+                        <li>List item two</li>
+                        <li>List item three</li>
+                      </ul>
+                    </div>
+                    <h3>Section 4</h3>
+                    <div>
+                      <p>
+                      Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                      et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                      faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                      mauris vel est.
+                      </p>
+                      <p>
+                      Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                      Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                      inceptos himenaeos.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="autocomplate">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+               <form action="#" class="py-5">
+                <div class="mb-3">
+                  <label for="subject" class="form-label">submit your favorit language</label>
+                  <input type="text" class="form-control" id="subject">
+                  <label for="datepic" class="form-label">submit your birth day</label>
+                  <input type="text" class="form-control" id="datepic">
+                </div>
+                <div class="mb-3">
+                  <button type="submit" class="btn btn-dark">submit</button>
+                </div>
+               </form> 
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div id="dialog" title="Basic dialog">
+            <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+          </div>
+        </div>
+        </div>
+    </div>
+   </section>
+   <!-- dropable -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+            <div id="draggable" class="ui-widget-content">
+              <img src="images/tiger.jpeg" alt="#">
+            </div>
+           
+            <div id="droppable" class="ui-widget-header">
+            <p>pic</p>
+          </div>
+        </div>
+        <!-- example2  -->
+        <div class="col-md-4">
+            <div id="draggabl" class="ui-widget-content">
+            <p>I revert when I'm dropped</p>
+            </div>
+           
+            <div id="draggable2" class="ui-widget-content">
+            <img src="images/flower.jpeg " alt="#">
+            </div>
+           
+            <div id="droppabl" class="ui-widget-header">
+            <p>Drop me here</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="ui-widget ui-helper-clearfix">
+ 
+            <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras</h5>
+                <img src="images/flower.jpeg" alt="The peaks of High Tatras" width="96" height="72">
+              </li>
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 2</h5>
+                <img src="images/pic.jpeg" alt="The chalet at the Green mountain lake" width="96" height="72">
+
+              </li>
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 3</h5>
+                <img src="images/tiger.jpeg" alt="Planning the ascent" width="96" height="72">
+              </li>
+              <li class="ui-widget-content ui-corner-tr">
+                <h5 class="ui-widget-header">High Tatras 4</h5>
+                <img src="images/tigero.jpeg" alt="On top of Kozi kopka" width="96" height="72">
+              </li>
+            </ul>
+             
+            <div id="trash" class="ui-widget-content ui-state-default">
+              <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+            </div>
+             
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- manue -->
+    <section class="manue">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul id="menu">
+              <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+              <li><div>Books</div></li>
+              <li><div>Clothing</div></li>
+              <li><div>Electronics</div>
+                <ul>
+                  <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                  <li><div>Car Hifi</div></li>
+                  <li><div>Utilities</div></li>
+                </ul>
+              </li>
+              <li><div>Movies</div></li>
+              <li><div>Music</div>
+                <ul>
+                  <li><div>Rock</div>
+                    <ul>
+                      <li><div>Alternative</div></li>
+                      <li><div>Classic</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Jazz</div>
+                    <ul>
+                      <li><div>Freejazz</div></li>
+                      <li><div>Big Band</div></li>
+                      <li><div>Modern</div></li>
+                    </ul>
+                  </li>
+                  <li><div>Pop</div></li>
+                </ul>
+              </li>
+              <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    
+     <br>
+     <!-- selector -->
+      <section class="selector">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="demo">
+ 
+                <form action="#">
+                 
+                  <fieldset>
+                    <label for="speed">Select a speed</label>
+                    <select name="speed" id="speed">
+                      <option>Slower</option>
+                      <option>Slow</option>
+                      <option selected="selected">Medium</option>
+                      <option>Fast</option>
+                      <option>Faster</option>
+                    </select>
+                 
+                    <label for="files">Select a file</label>
+                    <select name="files" id="files">
+                      <optgroup label="Scripts">
+                        <option value="jquery">jQuery.js</option>
+                        <option value="jqueryui">ui.jQuery.js</option>
+                      </optgroup>
+                      <optgroup label="Other files">
+                        <option value="somefile">Some unknown file</option>
+                        <option value="someotherfile">Some other file with a very long option text</option>
+                      </optgroup>
+                    </select>
+                 
+                    <label for="number">Select a number</label>
+                    <select name="number" id="number">
+                      <option>1</option>
+                      <option selected="selected">2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                      <option>11</option>
+                      <option>12</option>
+                      <option>13</option>
+                      <option>14</option>
+                      <option>15</option>
+                      <option>16</option>
+                      <option>17</option>
+                      <option>18</option>
+                      <option>19</option>
+                    </select>
+                 
+                    <label for="salutation">Select a title</label>
+                    <select name="salutation" id="salutation">
+                      <option disabled="" selected="">Please pick one</option>
+                      <option>Mr.</option>
+                      <option>Mrs.</option>
+                      <option>Dr.</option>
+                      <option>Prof.</option>
+                      <option>Other</option>
+                    </select>
+                  </fieldset>
+                 
+                </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br>
+      <!-- tabs -->
+       <section class="tabs">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="tabs">
+                <ul>
+                  <li><a href="#tabs-1">Nunc tincidunt</a></li>
+                  <li><a href="#tabs-2">Proin dolor</a></li>
+                  <li><a href="#tabs-3">Aenean lacinia</a></li>
+                </ul>
+                <div id="tabs-1">
+                  <p><strong>Click this tab again to close the content pane.</strong></p>
+                  <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+                </div>
+                <div id="tabs-2">
+                  <p><strong>Click this tab again to close the content pane.</strong></p>
+                  <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                </div>
+                <div id="tabs-3">
+                  <p><strong>Click this tab again to close the content pane.</strong></p>
+                  <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <!-- cool animation -->
+        <section class="cool">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="toggler">
+                  <div id="effect" class="ui-widget-content ui-corner-all">
+                    <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+                    <p>
+                      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                    </p>
+                  </div>
+                </div>
+                <button id="button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- wide factory -->
+         <section class="fectory">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                
+              </div>
+            </div>
+          </div>
+         </section>
+     
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- jq ui -->
+     <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
